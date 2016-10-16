@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: top;
+    border: 0 none;
+}
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+body {
+    font-family: "Segoe UI Light", Calibri;
+    font-size: 14px;
+}
+
+.header-top {
+    width: 1201px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.header-first {
+    width: 1201px;
+    margin: 0 auto;
+    height: 94px;
+}
+
+.header-logo {
+    float: left;
+    padding-top: 35px;
+    margin-right: 20px;
+}
+
+.header-text {
+    float: left;
+    border: 0 none;
+    border-left: 1px solid #dcdcdc;
+    margin-top: 25px;
+    padding-left: 20px;
+    height: 43px;
+    line-height: 23px;
+    font-size: 12px;
+}
+
+.search {
+    float: right;
+    margin-top: 26px;
+
+}
+
+.search-tex {
+    width: 296px;
+    height: 42px;
+    outline: none;
+    border: 1px solid #dcdcdc;
+    border-right: 0 none;
+    vertical-align: middle;
+    padding-left: 13px;
+}
+
+.search-btn {
+    width: 44px;
+    height: 43px;
+    border: 0 none;
+    vertical-align: middle;
+    background: #ff5842 center center no-repeat url(../images/search.png);
+    font-size: 12px;
+    cursor: pointer;
+}
+.header-two {
+    width: 1201px;
+    height: 34px
+}
+
+.header-tl {
+    float: left
+}
+.colorX span{ color: #ff5842;}
+
+.header-tl li {
+    float: left;
+    padding-right: 50px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.header-tl li a:link {
+    color: #686868;
+}
+
+.header-tl li a:hover {
+    color: #ff5842;
+}
+.header-tr {
+    width: 116px;
+    float: right
+}
+
+#join {
+    width: 63px;
+    height: 27px;
+    background: #ff5842;
+    float: left;
+    color: white;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#join a:link {
+    color: white;
+}
+
+#join a:hover {
+    color: white;
+}
+#join a:visited {
+    color: white;
+}
+#login {
+    width: 52px;
+    height: 27px;
+    background: #a1a1a1;
+    float: right;
+    color: white;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#login a:link {
+    color: white;
+}
+
+#login a:hover {
+    color: white;
+}
+#login a:visited {
+    color: white;
+}
+.footer{width:100%;}
+.footer-middle {
+    width: 1201px;
+    height: 210px;
+    margin: 0 auto;
+}
+
+.footer-middleOne {
+    width: 360px;
+    float: left;
+    margin-top: 20px;
+}
+
+.one-top {
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    vertical-align: middle;
+}
+
+.one-top img {
+    margin-right: 9px;
+}
+
+.footer-text1 {
+    width: 360px;
+    color: #829fad;
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+.footer-middleTwo {
+    width: 140px;
+    float: left;
+    margin-left: 208px;
+    margin-top: 20px;
+}
+.Two-top {
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    vertical-align: middle;
+}
+
+.footer-text2 {
+    color: #829fad;
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 18px;
+}
+.footer-text2 dd a:link{  color: #829fad;}
+.footer-text2 dd a:hover{  color: white;}
+.footer-text2 dd a:visited{  color: #829fad;}
+
+
+.footer-middleThree {
+    width: 120px;
+    margin-left: 115px;
+    margin-top: 20px;
+    float: left;
+}
+
+.Three-top {
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    vertical-align: middle;
+}
+
+.footer-text3 {
+    color: #829fad;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 18px;
+}
+.footer-text3 dd a:link{  color: #829fad;}
+.footer-text3 dd a:hover{  color: white;}
+.footer-text3 dd a:visited{  color: #829fad;}
+
+.footer-middleFour {
+    float: right;
+    width: 160px;
+    margin-top: 20px;
+
+}
+
+.Four-top {
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    vertical-align: middle;
+}
+
+.footer-text4 {
+    color: #829fad;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 18px;
+}
+.footer-text4 dd a:link{  color: #829fad;}
+.footer-text4 dd a:hover{  color: white;}
+.footer-text4 dd a:visited{  color: #829fad;}
+
+.footer-first {
+    height: 210px;
+    margin: 0 auto;
+    background: #222f35;
+    width: 100%;
+}
+
+.footer-sc {
+    height: 53px;
+    background: #172125;
+    width: 100%;
+}
+
+.footer-twoMiddle {
+    width: 1201px;
+    height: 53px;
+    margin: 0 auto;
+}
+
+.middle-left {
+    width: 400px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #82a0ad;
+    float: left;
+    margin: 10px auto;
+}
+
+.middle-right {
+    float: right;
+    width: 220px;
+    height: 50px;
+}
+
+.middle-right a {
+    width: 37px;
+    height: 37px;
+    background: #222f35;
+    text-align: center;
+    cursor: pointer;
+    margin: 7px 0 7px 2px;
+    float: right;
+    line-height: 37px;
+}
+.middle-right img{vertical-align: middle;}
