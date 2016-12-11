@@ -153,7 +153,8 @@ body {
 #login a:visited {
     color: white;
 }
-.footer{width:100%;}
+.footer{width:100%;
+    min-width: 1201px;}
 .footer-middle {
     width: 1201px;
     height: 210px;
